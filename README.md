@@ -4,8 +4,8 @@ Este es un proyecto básico utilizando el framework NestJS.
 
 ## Requisitos
 
-- Node.js (versión 14 o superior)
-- npm (versión 6 o superior) o yarn
+- Node.js 
+- npm 
 
 ## Instalación
 
