@@ -22,24 +22,12 @@ Este es un proyecto básico utilizando el framework NestJS.
     npm install
     ```
 
-    o si prefieres usar yarn:
-
-    ```sh
-    yarn install
-    ```
-
 ## Ejecución
 
 1. Ejecuta el proyecto en modo desarrollo:
 
     ```sh
     npm run start:dev
-    ```
-
-    o si prefieres usar yarn:
-
-    ```sh
-    yarn start:dev
     ```
 
 2. El servidor estará corriendo en `http://localhost:3000`.
