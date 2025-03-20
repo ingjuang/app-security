@@ -43,3 +43,28 @@ Este es un proyecto básico utilizando el framework NestJS.
     ```
 
 2. El servidor estará corriendo en `http://localhost:3000`.
+
+## Curl de los servicios disponibles
+
+1. Servicio para crear usuario:
+
+    ```sh
+    curl --location 'localhost:3000/users' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+        "name":"juande4",
+        "email":"juande4@gmail.com",
+        "password": "1234"
+    }'
+    ```
+
+2. Servicio para login:
+
+    ```sh
+    curl --location 'localhost:3000/users/login' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+        "email":"juande4@gmail.com",
+        "password": "1234"
+    }'
+    ```
