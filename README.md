@@ -12,7 +12,7 @@ Este es un proyecto básico utilizando el framework NestJS.
 1. Clona el repositorio:
 
     ```sh
-    git clone https://github.com/tu-usuario/tu-repositorio.git
+    git clone https://github.com/ingjuang/app-security.git
     cd app-security
     ```
 
